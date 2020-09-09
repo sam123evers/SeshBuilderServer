@@ -4,20 +4,24 @@
   "description": "Mongoose many to many relationship example",
   "main": "server.js",
   "scripts": {
+    "start": "nodemon src/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "mongoose",
+    "express",
     "node",
     "js",
-    "many",
-    "to",
-    "many",
     "mongodb"
   ],
   "author": "bezkoder",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
     "mongoose": "^5.8.11"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
   }
 }

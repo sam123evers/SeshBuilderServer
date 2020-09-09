@@ -1,4 +1,4 @@
 module.exports = {
-  Tag: require("./Tag"),
-  Tutorial: require("./Tutorial")
+  Pose: require("./Pose"),
+  Session: require("./Session")
 };
